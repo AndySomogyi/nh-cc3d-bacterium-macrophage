@@ -1,5 +1,5 @@
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -C @tool/bin/nh-cc3d-bacterium-macrophage.sh -t cc3dbacteriummacrophage \
+/usr/bin/invoke_app "$@" -C @tool/bin/nh-cc3d-bacterium-macrophage.sh -t cc3dbactmacro \
                          -u pyqt5-5.10.1 \
                          -u vtk-6.3.0
